@@ -29,10 +29,9 @@ export function Home(props) {
 							<Cards />
 						</div>
 					</div>
-
-					<Footer />
 				</div>
 			</div>
+			<Footer />
 		</Fragment>
 	);
 }

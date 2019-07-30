@@ -9,7 +9,7 @@ export function Jumbotron(props) {
 				<p className="lead">{data.jumbotron.description}</p>
 				<a
 					href={data.jumbotron.link.url}
-					class="btn btn-primary btn-lg">
+					className="btn btn-primary btn-lg">
 					{data.jumbotron.link.label}
 				</a>
 			</div>
