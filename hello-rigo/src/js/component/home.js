@@ -12,16 +12,25 @@ export function Home(props) {
 			<Navbar />
 			<div className="container">
 				<div className="row">
-					<div className="col-md-12">
+					<div className="">
 						<Jumbotron />
-
-						<Cards />
-						<Cards />
-						<Cards />
-						<Cards />
-
-						<Footer />
 					</div>
+					<div className="row">
+						<div className="col-md-3">
+							<Cards />
+						</div>
+						<div className="col-md-3">
+							<Cards />
+						</div>
+						<div className="col-md-3">
+							<Cards />
+						</div>
+						<div className="col-md-3">
+							<Cards />
+						</div>
+					</div>
+
+					<Footer />
 				</div>
 			</div>
 		</Fragment>

@@ -1,14 +1,17 @@
 import React from "react";
+import * as data from "../data";
 
 export function Jumbotron(props) {
 	return (
 		<div className="jumbotron jumbotron-fluid">
 			<div className="container">
-				<h1 className="display-4">Fluid jumbotron</h1>
-				<p className="lead">
-					This is a modified jumbotron that occupies the entire
-					horizontal space of its parent.
-				</p>
+				<h1 className="display-4">{data.jumbotron.titulo}</h1>
+				<p className="lead">{data.jumbotron.description}</p>
+				<a
+					href={data.jumbotron.link.url}
+					class="btn btn-primary btn-lg">
+					{data.jumbotron.link.label}
+				</a>
 			</div>
 		</div>
 	);

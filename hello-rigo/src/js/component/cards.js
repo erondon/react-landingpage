@@ -1,17 +1,17 @@
 import React from "react";
+import * as data from "../data";
 
 export function Cards(props) {
 	return (
-		<div className="card">
-			<img src="..." className="card-img-top" alt="..." />
+		<div classNameName="card h-100">
+			<img className="card-img-top" src={data.cards.img} alt="" />
 			<div className="card-body">
-				<h5 className="card-title">Card title</h5>
-				<p className="card-text">
-					Some quick example text to build on the card title and make
-					up the bulk of the card's content.
-				</p>
-				<a href="" className="btn btn-primary">
-					Go somewhere
+				<h4 className="card-title">{data.cards.title}</h4>
+				<p className="card-text">{data.cards.description}</p>
+			</div>
+			<div className="card-footer">
+				<a href="#" className="btn btn-primary">
+					{data.cards.button}
 				</a>
 			</div>
 		</div>

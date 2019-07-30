@@ -7,3 +7,11 @@ export let jumbotron = {
 		label: "Call to action"
 	}
 };
+
+export let cards = {
+	description:
+		"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.",
+	title: "Card Title",
+	img: "http://placehold.it/500x325",
+	button: "Find Out More!"
+};
