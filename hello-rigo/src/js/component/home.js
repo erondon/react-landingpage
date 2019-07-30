@@ -12,7 +12,7 @@ export function Home(props) {
 			<Navbar />
 			<div className="container">
 				<div className="row">
-					<div className="col-md-12 offset-md-1">
+					<div className="col-md-12">
 						<Jumbotron />
 
 						<Cards />
